@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <audio id="clickSound">
+      <source src="mixkit-hard-typewriter-click-1119.wav" type="audio/wav" />
+    </audio>
+    <header>
+      <img src="icon-white2.png" alt="logo" />
+      <h1>&nbsp;Pomofocus</h1>
+    </header>
+    <section>
+      <div class="impSection">
+        <div class="setTimeBlock">
+          <div class="allButtons">
+            <button class="Pomodoro btn Active">Pomodoro</button>
+            <button class="ShortBreak btn">Short Break</button>
+            <button class="LongBreak btn">Long Break</button>
+          </div>
+          <div class="time timer">25:00</div>
+          <div class="start">
+            <button class="User-click" data-p="start">START</button>
+          </div>
+        </div>
+        <div class="twoBits">
+          <div class="Hashnumber">#1</div>
+          <div class="titleofpage">Time to focus!</div>
+        </div>
+      </div>
+
+      <div class="tasks">
+        <div class="part-one">
+          <span>Tasks</span>
+          <img class="hover" src="threedots-white.png" alt="opts" />
+        </div>
+        <div class="part-two">
+          <img src="plus-circle-white.png" alt="add" />&nbsp;<span
+            >Add Task</span
+          >
+        </div>
+
+        <div class="form hidden">
+          <input
+            type="text"
+            class="imp"
+            placeholder="What are you working on?"
+          />
+          <p class="est">Est Pomodoros</p>
+          <div class="input-no">
+            <input type="text" class="noof" /><button class="inc">
+              <img src="caret-up.png" alt="" srcset="" /></button
+            ><button class="dec">
+              <img src="caret-down.png" alt="" srcset="" />
+            </button>
+          </div>
+          <div class="save-p">
+            <button class="save">Save</button>
+            <button class="cancel">Cancel</button>
+          </div>
+        </div>
+        <div class="taskclickdone hidden">
+          <div class="div-in-tas-one">
+            <div class="black"></div>
+            <img src="grey-logo.png" alt="" srcset="" />
+            <p class="taskName">Pomodoro</p>
+          </div>
+          <div class="div-in-tas-two">
+            <p class="fact">1/0</p>
+            <button class="rmopt"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
